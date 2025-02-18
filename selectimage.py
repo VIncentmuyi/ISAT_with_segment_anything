@@ -108,8 +108,8 @@ def process_tif_directory(input_dir, output_dir, num_files=300, num_workers=4):
 
 if __name__ == "__main__":
     # 使用示例
-    input_directory = "path/to/your/input/directory"  # 替换为你的输入目录
-    output_directory = "path/to/your/output/directory"  # 替换为你的输出目录
+    input_directory = r"F:\data\人居数据\01建成区+临桂区"  # 替换为你的输入目录
+    output_directory = r"F:\data\人居数据\01建成区+临桂区\output"  # 替换为你的输出目录
 
     process_tif_directory(
         input_dir=input_directory,

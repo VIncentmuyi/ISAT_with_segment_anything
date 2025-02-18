@@ -25,6 +25,7 @@ software:
   auto_save: false
   contour_mode: external
   create_mode_invisible_polygon: true
+  current_converter: coco
   language: en
   mask_alpha: 0.6
   show_edge: true
